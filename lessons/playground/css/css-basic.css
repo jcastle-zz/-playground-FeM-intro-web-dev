@@ -45,3 +45,14 @@ h1 {
   li {
     color: brown;
   }
+
+  /*
+  CSS Selectors and Cascading
+
+  Always style on classes (.blog-post), don't style on tags (h1). Err on the side of using classes too much. When two things are same in CSS, the last one wins. The one that comes further down in CSS file wins. Results based on property by property basis.
+
+  Classes that are more specific or having more classes wins.
+
+  Classes are more specific than tags. Style with most classes wins even over tags. Don't mix tags and classes - h1.blog-post.special. Just make it .blog-post.special.
+
+  */
