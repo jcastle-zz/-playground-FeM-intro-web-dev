@@ -1,0 +1,47 @@
+/* h1 is selector, color is property, red is the value. There are ~350 properties, 150 different colors. Various CSS tricks for colors, styles, and size. One master doc for all CSS selectors.
+*/
+/* Parents and children - parents will affect children, it cascades. */
+
+h1 {
+    font-family: Helvetica;
+    color: red;
+    font-size: 50px;
+    text-align: right;
+  }
+  
+  h2 {
+    font-family: Monaco;
+    color: seagreen;
+    font-size: 40px;
+    border: 9px dotted gray;
+    text-align: center;
+  }
+  
+  p {
+    font-family: Comic Sans MS;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+  }
+  
+  div {
+    color: blue;
+  }
+  
+  span {
+    color: yellow;
+    text-decoration: underline;
+    font-style: italic;
+  }
+  
+  ol {
+    list-style: upper-roman;
+  }
+  
+  ul {
+    list-style: square;
+  }
+  
+  li {
+    color: brown;
+  }

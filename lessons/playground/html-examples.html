@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Examples</title>
+</head>
+
+<body>
+    <!-- List of examples from basic-html.md and html-next-steps.md -->
+    <div>
+        <!-- Div is a container defined by what's in it. Very helpful for CSS. -->
+        <h1>HTML Examples</h1>
+        <h2>HTML Examples</h2>
+        <h3>HTML Examples</h3>
+        <h4>HTML Examples</h4>
+        <h5>HTML Examples</h5>
+        <h6>HTML Examples</h6>
+    </div>
+    <div>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore necessitatibus iusto praesentium quam
+            dolore quia, officiis autem pariatur quae ipsum, culpa eveniet laboriosam quasi suscipit eos! Tempora itaque
+            esse praesentium.
+        </p>
+        <p> Links. <a href="https://www.frontendmasters.com">Frontend Masters</a>
+        </p>
+        <p>
+            <!-- Container for styling small pieces of text. -->
+            Span. <span><a href="https://www.frontendmasters.com">Frontend Masters</a></span>
+        </p>
+        <p>
+            Lists.
+        <ul>
+            <li>Bob</li>
+            <li>Eve</li>
+            <li>Alice</li>
+        </ul>
+        <ol>
+            <li>Bob</li>
+            <li>Eve</li>
+            <li>Alice</li>
+        </ol>
+        </p>
+        <p>
+            Button. <button>Click me!!</button>
+            Image. Always use alt tags on imgs for screen readers! <img src="http://www.placepuppy.net/100/100"
+                alt="an adorable puppy" />
+        </p>
+        <p>
+            Input. <input />
+            <input type="checkbox" />
+            <input type="color" />
+            <input type="file" />
+            <input value="This is a pre-filled value" />
+            <input placeholder="This is a placeholder" />
+            <input type="checkbox" checked />
+            <input type="radio" checked />
+            <input type="checkbox" disabled checked />
+            <input type="color" value="#FF0000" />
+            Select & option. <select>
+                <option value="seattle">Seattle</option>
+                <option value="portland">Portland</option>
+                <option value="san-francisco">San Francisco</option>
+            </select>
+            Form.
+        <form><input /><textarea></textarea></form>
+        </p>
+        <p>
+            Table. Used for data, not displaying text like in the past.
+        <table>
+            <tr>
+                <td>(0,0)</td>
+                <td>(1,0)</td>
+            </tr>
+            <tr>
+                <td>(0,1)</td>
+                <td>(1,1)</td>
+            </tr>
+        </table>
+        </p>
+        <p>
+            Love this!
+            <marquee>This is a really old feature that only works in some browsers. You should never use it for a real
+                website.</marquee>
+        </p>
+        <p>
+            <!-- Classes are special attributes that can go on any tag, though some you won't use it with. Name things semantically - what it does, not what it looks like. Any class can have a tag. Can have multiple classes on same element. -->
+            Classes.
+        <div class="header">
+            <h1 class="header-title">My Great Blog</h1>
+        </div>
+        <div class="blog-posts">
+            <div class="post">
+                <h1 class="post-title">When Not to Overextend House Metaphors</h1>
+                <p class="post-text"> … </p>
+            </div>
+            <div class="post">
+                <h1 class="post-title">Another Great Blog Post</h1>
+                <p class="post-text"> … </p>
+            </div>
+        </div>
+        </p>
+    </div>
+
+    <!-- IDs. Legacy product, use classes now. Can use for linking in the same document. <a href="#the-h1-part-way-down-the-page">link</a> -->
+    <div class="header">
+        <h1 class="header-title">My Great Blog</h1>
+    </div>
+    <div class="blog-posts">
+        <div id="house-metaphors-post" class="post">
+            <h1 class="post-title">When Not to Overextend House Metaphors</h1>
+            <p class="post-text"> … </p>
+        </div>
+        <div class="post">
+            <h1 class="post-title">Another Great Blog Post</h1>
+            <p class="post-text"> … </p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
