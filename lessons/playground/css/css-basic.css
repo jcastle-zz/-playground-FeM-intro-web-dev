@@ -63,4 +63,18 @@ h1 {
 
   Wildcard selector (*) - selects every element and styles it. Probably never use this. One use case * { box-sizing: border-box; }. Only need this once, Brian uses on every website.
 
+  Layout - using CSS for layout.
+
+  Float - don't need this anymore, may see it in older code. Better way to do it is with flex.
+
+  The Box Model
+  - Display mode - a div by default is display block, will take 100% of width and respects padding and margins. Spans by default display in line.
+    - Inline - whatever the tag is will behave like text.
+    - Block - will respect height, width, margins.
+    - Inline-block - hybrid between the two.
+    - Flex - Similar to block, super powers on how interior tags are layed out. Allows for fancy layout techniques.
+    - Grid - Similar to flex, another approach.
+    - Tables - should use for data.
+    - Display: none; - to display no style.
+
   */
