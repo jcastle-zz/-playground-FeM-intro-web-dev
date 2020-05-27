@@ -102,6 +102,15 @@ h1 {
     - Can put multiple flex items together - flex-container ai-center reverse js-sa.
     - Flex-wrap - if too many things are on a line it forces a wrap.
     - Can individually move boxes - align-self: flex-end; - can add in order w/ order: 5;
-    
+
+css-patterns.md
+
+When to use the cascade:
+- When you want to use same style with minor changes.
+- If using cascade, group items together in same file.
+- Place comments in CSS file about inheriting style from other class. 
+- Helps with DRY - don't repeat yourself
+
+Use Chrome style editor to make updates to CSS in real time and possibly save back to original file.
 
   */
