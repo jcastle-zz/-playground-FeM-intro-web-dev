@@ -55,4 +55,12 @@ h1 {
 
   Classes are more specific than tags. Style with most classes wins even over tags. Don't mix tags and classes - h1.blog-post.special. Just make it .blog-post.special.
 
+  Don't use ID's and !important. ID's overpower classes. 
+
+  Pseudoclasses - Using CSS to affect state. Hover is most common. .hover-example:hover{} Means both the class and the thing it's hovering over. Focus, active, checked are all common other ones. Only need to call the original class .hover-example the :hover will work when action is take in the browser.
+
+  Structural pseudclass - first-child, last-child, :nth-child(2).
+
+  Wildcard selector (*) - selects every element and styles it. Probably never use this. One use case * { box-sizing: border-box; }. Only need this once, Brian uses on every website.
+
   */
