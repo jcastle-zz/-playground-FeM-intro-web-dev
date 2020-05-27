@@ -61,14 +61,13 @@ h1 {
 
   Structural pseudclass - first-child, last-child, :nth-child(2).
 
-  Wildcard selector (*) - selects every element and styles it. Probably never use this. One use case * { box-sizing: border-box; }. Only need this once, Brian uses on every website.
+  Wildcard selector (*) - selects every element and styles it. Probably never use this. One use case * { box-sizing: border-box; }. Only need this once, Brian uses on every website. Makes it so you don't have to think about adding padding and borders together. Everything measured in border-box instead of content-box.
 
   Layout - using CSS for layout.
 
   Float - don't need this anymore, may see it in older code. Better way to do it is with flex.
 
-  The Box Model
-  - Display mode - a div by default is display block, will take 100% of width and respects padding and margins. Spans by default display in line.
+  Display modes - a div by default is display block, will take 100% of width and respects padding and margins. Spans by default display in line.
     - Inline - whatever the tag is will behave like text.
     - Block - will respect height, width, margins.
     - Inline-block - hybrid between the two.
@@ -76,5 +75,33 @@ h1 {
     - Grid - Similar to flex, another approach.
     - Tables - should use for data.
     - Display: none; - to display no style.
+  
+  The Box Model - Five properties of box model and a complete element:
+    - Height - height of box.
+    - Width - width of box.
+    - Padding - inside the border.
+    - Border - edge of the box.
+    - Margin - outside the border.
+
+    * Padding, border, margin - inside to outside, in that order.
+
+  Floats - old way of laying things out. Use them when you could not use flex.
+
+  Flex - display:flex - provides for easier layout of boxes.
+    - flex-direction: row-reverse; - reverses boxes.
+    - flex-direction: column or column-reverse; - boxes go in column. Can also do column reverse.
+    - justify-content: flex-end; - move everything to the right.
+    - justify-content: flex-start; - move everything left, this is the default.
+    - justify-content: center; - move everything to the middle.
+    - justify-content: space-between; - provides space between boxes.
+    - justify-content: space-around; - provides space between boxes and page sides.
+    - justify-content: space-evenly; - provides space evenly.
+    - align-items: flex-end; - adjusting vertically, move all boxes to the bottom.
+    - align-items: center; - vertically center.
+    - align-items: stretch; - stretch content across the div. Can set a height.
+    - Can put multiple flex items together - flex-container ai-center reverse js-sa.
+    - Flex-wrap - if too many things are on a line it forces a wrap.
+    - Can individually move boxes - align-self: flex-end; - can add in order w/ order: 5;
+    
 
   */
