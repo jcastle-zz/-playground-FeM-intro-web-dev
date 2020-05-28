@@ -14,6 +14,7 @@ You don't have to get it exact. The point here is for you to break down this lay
 
 Here are some tips and guidelines:
 
+* Flex - flex stretch, two boxes on first row at 25% each, 50% for middle box
 * Google everything. No one expects you to remember these things off the top of your head. It's not cheating. This is not an exam. Knowing how to Google programming things is literally your job.
 * The image is coming from a site called [placecorgi.com][pc]. The key here is that it'll give you images of any size. The way you do that is http://placecorgi.com/ `<width>` / `<height>` where your replace width and height with a number. This will be the size of your image in pixels. The one in my example is http://placecorgi.com/500/300
 * Do the navigation box (with all the colors) last. It's the hardest part. It uses `display: flex` inside of `display: flex` and uses `flex` and `flex-direction`.
