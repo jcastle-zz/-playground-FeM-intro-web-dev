@@ -4,7 +4,7 @@ title: "Programming Fundamentals"
 path: "/programming-fundamentals"
 ---
 
-This is a tough section to teach because the needs of the student vary quite widely here. Some of you are programmers from other languages who are coming here to learn front end coding. Some of you are totally new to coding and JavaScript will be your first programming language. Just like you know Spanish already, learning Italian becomes a whole lot easier since you take the same concepts and express them with minor variances. This workshop is optimizing for those totally new to coding and thus we assume no prior knowledge. If you do know another progamming language, I invite you instead to skim this section in familiarize with how JavaScript looks. The next sections will aimed also at you.
+This is a tough section to teach because the needs of the student vary quite widely here. Some of you are programmers from other languages who are coming here to learn front end coding. Some of you are totally new to coding and JavaScript will be your first programming language. Just like you know Spanish already, learning Italian becomes a whole lot easier since you take the same concepts and express them with minor variances. This workshop is optimizing for those totally new to coding and thus we assume no prior knowledge. If you do know another programming language, I invite you instead to skim this section in familiarize with how JavaScript looks. The next sections will aimed also at you.
 
 ## What is code?
 
