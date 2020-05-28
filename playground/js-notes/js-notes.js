@@ -38,3 +38,17 @@ if (friendsAtYourParty === 0) {
 } else {
     console.log('turn on the dance music'); // never gets here, can't print both
 }
+
+// loops - while loop functions like an if statement, similar to do loop where do loop happens at least once
+let friendsAtYourParty1 = 0;
+while (friendsAtYourParty1 < 10) {
+    friendsAtYourParty1 = friendsAtYourParty1 + 1;
+}
+console.log(friendsAtYourParty1);
+
+// same as one above using for loop, only ++ and --
+let friendsAtYourParty2 = 0;
+for (let i = 0; i < 10; i++) {
+    friendsAtYourParty2++
+}
+console.log(friendsAtYourParty2);
