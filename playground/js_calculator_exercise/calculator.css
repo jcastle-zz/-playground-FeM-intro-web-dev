@@ -2,6 +2,6 @@
   box-sizing: border-box;
 }
 
-.testH1 {
-  color: red;
+.calculator-body {
+  font-family: monospace;
 }
