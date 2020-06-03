@@ -1,7 +1,89 @@
 * {
   box-sizing: border-box;
 }
+/* body by default has some padding against the sides we don't want */
 
-.calculator-body {
-  font-family: monospace;
+body {
+  padding: 0;
+  margin: 0;
+}
+/* make the calculator a fixed width with black background */
+
+.calc {
+  width: 400px;
+  background-color: black;
+  color: white;
+}
+
+/* for row with calculated total */
+.screen {
+  color: white;
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: right;
+  padding: 20px 5px;
+}
+
+/* never used but in HTML 
+.calc-buttons {}
+*/
+
+.calc-button {
+  background-color: #d8d9db;
+  color: black;
+  height: 100px;
+  width: 24.5%;
+  /* have to remove borders from buttons */
+  border: none;
+  /* buttons have rounding and we don't want that */
+  border-radius: 0;
+  font-size: 40px;
+  /* changes pointer to a finger pointer */
+  cursor: pointer;
+}
+
+.calc-button:hover {
+  /* subtle change in color when hovering */
+  background-color: #ebebeb;
+}
+
+.calc-button:active {
+  /* subtle change in color when something is pushed down */
+  background-color: #bbbcbe;
+}
+
+/* changes last button in row to orange */
+.calc-button:last-child {
+  background-color: #df974c;
+  color: white;
+}
+
+.calc-button:last-child:hover {
+  background-color: #dfb07e;
+}
+
+.calc-button:last-child:active {
+  background-color: #dd8d37;
+}
+
+.double {
+  width: 49.7%;
+}
+
+.triple {
+  width: 74.8%
+}
+
+/* makes look like a calculator by adjusting rows */
+.calc-button-row {
+  display: flex;
+  /* make them same height, doesn't do anything here since already same height */
+  align-content: stretch;
+  /* we want buttons to go to edges and have space in the middle */
+  justify-content: space-between;
+  margin-bottom: 0.5%;
+}
+
+.calc-button-row:last-child {
+  padding-bottom: 0;
 }

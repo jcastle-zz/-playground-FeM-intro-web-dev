@@ -9,27 +9,40 @@
 </head>
 
 <body>
-  <div class="calculator-body">
-    <!-- might need total tag? -->
-    <p class="row-total"></p>
-    <!-- need button tags for each number button, might be a diff tag -->
-    <p class="row-789">
-      <button class="number">9</button>
-      <button class="number">8</button>
-      <button class="number">7</button>
-    </p>
-    <p class="row-654">
-      <button class="number">6</button>
-      <button class="number">5</button>
-      <button class="number">4</button>
-    </p>
-    <p class="row-321">
-      <button class="number">3</button>
-      <button class="number">2</button>
-      <button class="number">1</button>
-    </p>
-    <!-- check this row, should have # and ? -->
-    <p class="row-0"></p>
+  <div class="calc">
+    <section class="screen">
+      0
+    </section>
+    <section class="calc-buttons">
+      <div class="calc-button-row">
+        <button class="calc-button double">C</button>
+        <button class="calc-button">←</button>
+        <!-- control command space on Mac to get an emoji -->
+        <button class="calc-button">%</button>
+      </div>
+      <div class="calc-button-row">
+        <button class="calc-button">7</button>
+        <button class="calc-button">8</button>
+        <button class="calc-button">9</button>
+        <button class="calc-button">*</button>
+      </div>
+      <div class="calc-button-row">
+        <button class="calc-button">4</button>
+        <button class="calc-button">5</button>
+        <button class="calc-button">6</button>
+        <button class="calc-button">-</button>
+      </div>
+      <div class="calc-button-row">
+        <button class="calc-button">1</button>
+        <button class="calc-button">2</button>
+        <button class="calc-button">3</button>
+        <button class="calc-button">+</button>
+      </div>
+      <div class="calc-button-row">
+        <button class="calc-button triple">0</button>
+        <button class="calc-button">=</button>
+      </div>
+    </section>
   </div>
   <script src="calculator.js"></script>
 </body>
